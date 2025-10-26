@@ -5,19 +5,19 @@ using namespace std;
 int main()
 {
    //zadanie 1
-	 /*   int a, b;
+	/*   int a, b;
 	cout << "Podaj dwie liczby calkowite: " << endl;
 	cin >> a >> b;
 
 	if (a == b)
 		cout << "a i b sa rowne " << endl;
 	else if (a > b)
-		cout << "a jest wieksze od b " << endl;
+		cout << "a = " << a << " jest wieksze od b = "<< b << endl;
 	else
-		cout << "b jest wieksze od a " << endl;  */
+		cout << "b = " << b << " jest wieksze od a = " << a << endl;   */
 
 	//zadanie 2
-	   /* int a, b;
+	/* int a, b;
 	cout << "Podaj dwie liczby calkowite: " << endl;
 	cin >> a >> b;
 
@@ -31,21 +31,21 @@ int main()
 
 	//zadanie 3
 
-	/*  float r;
+	 /* float r;
 	cout << "Podaj wspolczynnik r: " << endl;
 	cin >> r;
 
-	if (r <= 1 && r >= 0, 7)
+	if (r <= 1 && r >= 0.7)
 		cout << "Podany wspolczynnik ma bardzo wysoka korelacje dodatnia. " << endl;
-	else if (r < 0, 7 && r >= 0,5)
+	else if (r < 0.7 && r >= 0.5)
 		cout << "Podany wspolczynnik ma silna korelacje dodatnia. " << endl;
-	else if (r < 0, 5 && r >= 0,3)
+	else if (r < 0.5 && r >= 0.3)
 		cout << "Podany wspolczyninik ma umiarkowana korelacje dodatnia. " << endl;
-	else if (r < 0,3 && r >=0,2)
+	else if (r < 0.3 && r >=0.2)
 		cout << "Podany wspolczynnik ma slaba korelacje dodatnia. " << endl;
-	else if (r, 0,2 && r >= 0)
-		cout << "Brak korelacji dodatniej. " << endl;
-	*/
+	else if (r <0.2 && r >= 0)
+		cout << "Brak korelacji dodatniej. " << endl; */
+	
 
 
 	//zadanie 4
@@ -126,12 +126,13 @@ int main()
 		cout << "Czy kalkulator ma zakonczyc dzialanie?. Odpowiedz TAK lub NIE: " << endl;
 		cin >> wybor;
 		if(wybor == 'TAK')
+		re
 	}*/
 
 
 	//zadanie 7
 
- /*bool x = true;
+/* bool x = true;
 int i = 0;
 while (x) {
 	if (i == 200)
@@ -146,20 +147,21 @@ while (x) {
 
 
 	//zadanie 8
-		int n;
+	/*int n;
 		cout << "Podaj n: " << endl;
 		cin >> n;
-		int dzielnik;
+		int dzielnik = 2;
+		
 
-		while (dzielnik > 2 && dzielnik < sqrt(n)) {
+		while (dzielnik >= 2 && dzielnik <= sqrt(n)) {
 			if (n % dzielnik == 0) {
 				cout << dzielnik << " jest najmnijeszym dzielnikiem liczby n wiekszym od 2 " << endl;
 				break;
 			}
 			else
-				dzielnik++;
-		}
-
+				dzielnik = dzielnik + 1;
+		} */
+		
 
 
 	return 0;
